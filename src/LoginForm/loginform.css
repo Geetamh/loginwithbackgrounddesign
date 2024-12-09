@@ -1,0 +1,55 @@
+.form{
+    text-align: center;
+    align-content: center;
+}
+.body{
+    margin-left: 580px;
+    margin-top: 190px;
+    margin-right: 530px;
+    border: 1px solid red;
+    padding: 90px;
+    border-radius: 16px;
+    background-color:transparent;
+    color: aliceblue;
+    backdrop-filter: blur(30px);
+}
+.input-box input{
+width: 370px;
+height: 40px;
+margin: 10px;
+border-radius: 20px;
+color: white;
+background-color: transparent;
+outline: none;
+border: 1px solid white;
+}
+.input-box  input::placeholder{
+    color: aliceblue;
+}
+.login-btn button{
+width: 97%;
+height: 40px;
+border-radius: 20px;
+}
+.register a{
+    margin-top: 20px;
+    color:aliceblue;
+    margin-left: 130px;
+    text-decoration: none;
+}
+.login-btn{
+    margin-top: 20px;
+}
+.remember-me{
+    font-size: 15px;
+}
+.remember-me a{
+    margin-left: 118px;
+    text-decoration: none;
+    color:aliceblue
+}
+.input-box .icons{
+    position: absolute;
+    right:150px;
+    margin-top: 25px;
+}
